@@ -2,7 +2,7 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
 When("I enter a valid username", () => {
-  cy.get('#mobileNumber').type("1100000013");
+  cy.get('#mobileNumber').type("1100000053");
 });
 
 When("I enter a invalid username", () => {
@@ -13,7 +13,7 @@ When("I enter a valid password", () => {
   cy.get('#password').type("Ahmed@123");
 });
 
-When("I click on the sign in button for submit", () => {
+When("I click on the login button for submit", () => {
   cy.get('[type="submit"]').click();
 });
 

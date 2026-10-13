@@ -7,6 +7,6 @@ Given("I navigate to PIMS Landing Page", () => {
   cy.visit(url);
 });
 
-When("I click on the sign in button", () => {
+When("I click on the login button", () => {
   cy.get('a[routerlink="/login"]').click();
 });

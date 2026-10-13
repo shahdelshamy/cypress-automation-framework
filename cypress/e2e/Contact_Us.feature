@@ -1,3 +1,4 @@
+@contact-us
 Feature: Contact Us Page
 
     Scenario: Valid Contact Us Form Submission
